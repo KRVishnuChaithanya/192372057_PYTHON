@@ -1,0 +1,31 @@
+a={1:"one",2:"two"}
+print(a)
+print(a[1])
+a[1]="ONE"
+print(a)
+a[3]="three"
+print(a)
+print(1 in a)
+print(3 in a)
+a={1:'ONE',2:'two',3:'three'}
+b=a.copy()
+print(b)
+print(a.items())
+print(a.keys())
+print(a.values())
+a.pop(3)
+print(a)
+a.setdefault(3,"three")
+print(a)
+a.setdefault(2)
+print(a)
+b={4:"four"}
+a.update(b)
+print(a)
+key={"apple","ball"}
+len(a)
+a={1:'ONE',2:'two',3:'three'}
+a.clear()
+print(a)
+a={1:'ONE',2:'two',3:'three'}
+del(a)

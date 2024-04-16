@@ -1,0 +1,8 @@
+a=int(input("enter the value"))
+b=int(input("enter the value"))
+(a,b)=(b,a)
+print("afteer swapping the values of a and b are ",a,b)
+(a,b,c)=(1,2,3)
+print(a)
+print(b)
+print(c)
